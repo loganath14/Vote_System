@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#voting-form {
+    margin: 10% auto;
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#voting-form:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5); /* Box shadow on hover */
+    transition: 0.5s ease;
+}
+
+#voting-form #email{
+    margin-top: 10px;
+    width: 100%;
+    padding: 0;
+    border: 1px solid black;
+    border-left: none;
+    border-top: none;
+    box-shadow: 4.5px 4.5px 7.2px rgba(0, 0, 0, 0.2);
+}
+
+#voting-form #email:focus{
+    outline: none;
+}
+
+#options input,label{
+    margin: 10px 0;
+}
+
+#voting-form #vote-btn{
+    margin-top: 10px;
+    padding: 5px 15px;
+}
